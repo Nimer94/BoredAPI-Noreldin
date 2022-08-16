@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoredApi.Service", "BoredApi.Service\BoredApi.Service.csproj", "{A46BD570-D546-4473-BF67-CB9165A146E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoredApi.Service.UnitTest", "BoredApi.Service.UnitTest\BoredApi.Service.UnitTest.csproj", "{D8DAEBCF-3B3B-44F6-A061-5F94D8AB14CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{685B4771-664F-4F1E-B0C0-C3433391CB3F}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-1.yml = azure-pipelines-1.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A46BD570-D546-4473-BF67-CB9165A146E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46BD570-D546-4473-BF67-CB9165A146E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46BD570-D546-4473-BF67-CB9165A146E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46BD570-D546-4473-BF67-CB9165A146E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DAEBCF-3B3B-44F6-A061-5F94D8AB14CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DAEBCF-3B3B-44F6-A061-5F94D8AB14CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DAEBCF-3B3B-44F6-A061-5F94D8AB14CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DAEBCF-3B3B-44F6-A061-5F94D8AB14CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64141D7D-E289-40AE-888B-D8063147507B}
+	EndGlobalSection
+EndGlobal

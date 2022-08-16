@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "RETRIVE_ACTIVITIES_SCHEDULER": "0 */5 * * * *",
+    "ACTIVITIES_THRESHOLD": "5",
+    "TABLE_ACCOUNT_NAME": "",
+    "KEY_VALUE": ""
+
+  }
+}
